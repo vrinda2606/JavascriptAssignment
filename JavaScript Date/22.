@@ -1,0 +1,8 @@
+var date = prompt("Enter the date : ");
+
+function dayPassed(date){
+    var d = new Date(date);
+    d = d.getDay();
+    return d+1;
+}
+console.log(dayPassed(date));
